@@ -5,6 +5,8 @@
  */
 package test;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Teban1503
@@ -16,8 +18,9 @@ public class Test {
      */
     public static void main(String[] args) 
     {
+       String name = JOptionPane.showInputDialog("Write your name");
         // TODO code application logic here
-        System.err.println("test");
+        System.err.println("test" + " " + name );
     }
     
 }
